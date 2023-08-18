@@ -39,4 +39,4 @@ RUN touch /var/run/nginx.pid && \
 USER 1000
 
 ENTRYPOINT ["/patch/entrypoint.sh"]
-CMD ["nginx", "-g", "daemon off;"]
+CMD ["npm", "run", "start:prod"]

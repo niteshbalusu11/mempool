@@ -30,4 +30,4 @@ USER 1000
 
 EXPOSE 8999
 
-CMD ["/backend/start.sh"]
+CMD ["npm", "run", "start-production"]
